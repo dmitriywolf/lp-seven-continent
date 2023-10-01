@@ -1,0 +1,45 @@
+.employee-info__list {
+  margin-top: 40px;
+}
+
+.employee-info__item {
+  padding: 8px 0 7px 55px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.6;
+  background-image: url("../img/team/tick.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1230px) {
+  .employee-info__list {
+    margin-top: 20px;
+  }
+
+  .employee-info__item {
+    padding: 5px 0 5px 40px;
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 990px) {
+  .employee-info__list {
+    margin-top: 10px;
+  }
+
+  .employee-info__item {
+    padding: 5px 0 5px 20px;
+    margin: 0;
+    font-size: 15px;
+    background-size: 15px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .employee-info__list {
+    display: none;
+  }
+}

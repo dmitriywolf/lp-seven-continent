@@ -1,0 +1,90 @@
+.thanks {
+  background-image: url("../img/thanks/thanks-bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.thanks__title {
+  padding-top: 52px;
+  padding-bottom: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.thanks__list {
+  padding-top: 17px;
+  padding-bottom: 8px;
+}
+
+.thanks__arrows {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.thanks__arrow {
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+
+@media (max-width: 1230px) {
+  .thanks__title {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .thanks__list {
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 990px) {
+  .thanks__item {
+    padding: 0 10px;
+  }
+
+  .thanks__title {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .thanks__list {
+    padding: 0;
+  }
+
+  .thanks__arrows {
+    position: static;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .thanks__arrow {
+    width: 15px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .thanks__arrows {
+    max-width: 160px;
+    padding: 10px 0 0;
+  }
+
+}

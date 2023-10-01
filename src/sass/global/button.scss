@@ -1,0 +1,17 @@
+.button {
+  padding: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: $button-bg;
+  border: none;
+  transition: all 0.3s linear;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+
+

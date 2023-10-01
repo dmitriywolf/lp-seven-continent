@@ -1,0 +1,44 @@
+.logo__img {
+  margin-right: 30px;
+}
+
+.logo__text {
+  max-width: 140px;
+
+  p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 990px) {
+  .logo__img {
+    width: 55px;
+    margin-right: 15px;
+  }
+
+  .logo__text {
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .logo__img {
+    width: 45px;
+    margin-right: 10px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .logo__img {
+    width: 50px;
+  }
+
+  .logo__text {
+    display: none;
+  }
+}

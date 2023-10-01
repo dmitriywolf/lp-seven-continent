@@ -1,0 +1,160 @@
+.contacts__wrapper {
+  padding-top: 85px;
+  padding-bottom: 70px;
+  background-color: #d8f0f0;
+  background-image: linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
+}
+
+.contacts {
+  max-width: 665px;
+  padding-left: 100px;
+  font-size: 18px;
+  font-weight: 400;
+
+  .section__title {
+    padding-bottom: 55px;
+    text-align: left;
+  }
+}
+
+.contacts__text {
+  max-width: 340px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contacts__option {
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #007ca5;
+}
+
+.contacts__phone {
+  font-weight: 700;
+  color: #000000;
+  transition: all 0.3s;
+}
+
+.contacts--timetable {
+  max-width: 210px;
+}
+
+.contacts__text--mail {
+  color: #000000;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.contacts__phone:hover,
+.contacts__text--mail:hover {
+  color: #007ca5;
+}
+
+@media (max-width: 1230px) {
+  .contacts__wrapper {
+    padding: 50px 0;
+  }
+
+  .contacts {
+    padding: 0 15px 0 50px;
+    font-size: 16px;
+
+    .section__title {
+      padding-bottom: 35px;
+    }
+  }
+
+  .contacts__text {
+    max-width: 340px;
+    padding-bottom: 20px;
+    font-size: 17px;
+  }
+
+  .contacts__option {
+    padding-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 990px) {
+  .contacts__wrapper {
+    padding: 35px 0 15px;
+  }
+
+  .contacts {
+    padding: 0 10px 0 35px;
+    font-size: 15px;
+
+    .section__title {
+      padding-bottom: 25px;
+      font-size: 22px;
+    }
+  }
+
+  .contacts__text {
+    max-width: 340px;
+    padding-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .contacts__option {
+    padding-bottom: 6px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .contacts__wrapper {
+    padding: 30px 0 10px;
+  }
+
+  .contacts {
+    padding: 0 20px;
+
+    .section__title {
+      padding-bottom: 20px;
+      font-size: 20px;
+    }
+  }
+
+  .contacts__text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .contacts__wrapper {
+    padding: 30px 0;
+  }
+
+  .contacts {
+    text-align: center;
+
+    .section__title {
+      padding-bottom: 15px;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
